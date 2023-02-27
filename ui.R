@@ -41,7 +41,7 @@ strategy_list <- list("top_top_program_same_location", \
                    "nomatch_top",\
                    "nomatch_bot")\
 \
-dashboardPage(\
+dashboardPage(title = "Coupled2Match: an app to generate NRMP couples match rank lists",\
   # UI HEADER  \
   dashboardHeader(title = span(tagList(icon("link"), "Coupled2Match"), \
                                style = "font-weight: bold;")),\
